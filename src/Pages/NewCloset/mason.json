@@ -1,0 +1,18 @@
+export default {
+  men"" {
+    top: {
+      type: {},
+      style: {},
+      colors: {}
+    },
+    bottom: {},
+    outerwear: {},
+    dresses: {},
+    bag: {},
+    shoes: {},
+    accessories: {},
+    jewelry: {}
+  }
+}
+
+

@@ -1,0 +1,56 @@
+.container {
+    flex: 1;
+}
+.aboutustext {
+    letter-spacing: 0.01em;
+    font-size: 22px;
+    font-family: 'TT Commons';
+    line-height: 20px;
+    color: #383C41;
+    margin-bottom: 30px;
+}
+.sefeareaview{
+    flex: 1;
+}
+.imgbg {
+    top: 0;
+    position: absolute;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 100%;
+}
+.imagecontainer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.secondTitle{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #151515;
+    margin-top: -30px;
+}
+
+.captionText{
+    font-family: 'TT Commons';
+    font-size: 17px;
+    line-height: 20px;
+    color: #383C41;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
+.captionTextSecond{
+    font-family: 'TT Commons';
+    font-size: 17px;
+    line-height: 20px;
+    color: #383C41;
+    margin-bottom: 30px;
+    margin-top: 0px
+}

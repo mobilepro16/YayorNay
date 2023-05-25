@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "895266593264",
+    "firebase_url": "https://yayornay-287d9.firebaseio.com",
+    "project_id": "yayornay-287d9",
+    "storage_bucket": "yayornay-287d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895266593264:android:3d166c1cf46fa979",
+        "android_client_info": {
+          "package_name": "com.yayornay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895266593264-mcdblde83h80mv2fv5871p87fqfs9hmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqM85tetnnDa8Jyxp5n-ltTsm03RjDu-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895266593264-mcdblde83h80mv2fv5871p87fqfs9hmh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "895266593264-8h702vhoi6ilth5jr9bn92okka3a36og.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.yaynay"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

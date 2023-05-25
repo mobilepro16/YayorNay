@@ -1,0 +1,75 @@
+.chatContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.textTitle{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 4;
+}
+
+.textCaption{
+    margin-bottom: 20px;
+    font-family: 'TT Commons';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #8B8B8B;
+}
+
+.backContainer{
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chatHeader{
+    margin-top: 20px;
+    padding: 0;
+    background-color: #fff;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.iconArrow{
+    height: 28px;
+}
+
+.infoIcon{
+    height: 24px;
+    width: 24px;
+}
+
+.avatarIcon{
+    height: 180px;
+    width: 174px;
+}
+
+.contentSection{
+    padding: 24px 20px;
+    background-color: #F4F4F4;
+}
+
+.contentTitle{
+    font-family: 'TT Commons';
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #8B8B8B;
+}
+
+.contentCaption{
+    font-family: 'TT Commons';
+    font-size: 17px;
+    line-height: 23px;
+    color: #383C41;
+}

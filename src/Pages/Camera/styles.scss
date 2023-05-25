@@ -1,0 +1,25 @@
+.container {
+  flex: 1;
+  flex-direction: column;
+  background-color: black;
+}
+
+;
+.preview {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+;
+.capture {
+  // background-color: #fff;
+  border-radius: 5px;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.cameraImage{
+  height: 27px;
+  width: 30px;
+}

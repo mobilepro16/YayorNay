@@ -1,0 +1,158 @@
+.buttonMargin{
+    margin-top: 20px;
+}
+
+.mainScrollView{
+
+}
+
+.scrollSelection{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.scrollText{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #8B8B8B;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+
+.scrollTextActive{
+    color: #151515;
+}
+
+.contentView{
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+.gridView {
+    padding-top: 25px;
+    flex: 1;
+}
+
+.itemContainer {
+    justify-content: flex-end;
+    border-radius: 5px;
+    padding: 10px;
+    // height: 210px;
+}
+
+.itemName {
+    font-family: 'TT Commons';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #383C41;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.itemDate {
+    font-family: 'TT Commons';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #383C41;
+    margin-top: 0px;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 160px;
+}
+
+.productImage{
+    width: 100%;
+    height: 160px;
+}
+
+.imageContainerThumbnail{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 2px;
+}
+
+.imageContainerThumbnailCloset{
+    width: 100%;
+    height: 100px;
+    background: #ddd;
+    overflow: hidden;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 2px;
+}
+
+.productImageThumbnailCloset{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 2px;
+}
+
+.productImageThumbnail{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.badge{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #151515;
+    border-radius: 20px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badgeText{
+    color: #fff;
+}
+
+.missingtextcontainerCloset{
+    margin: 00px auto;
+}
+
+.missingtextcontainer{
+    margin: 50px auto;
+}
+
+.missingtext {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.ClosetTextWrapper {margin-top: 30px;padding: 2.5px}
+.ClosetImgWrapper {margin-top: 0;}
+.ClosetText {
+    font-family: 'Roboto Condensed';
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,0 +1,158 @@
+.chatContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.containerInput{
+    flex: 1;
+    border: 0;
+    height: 40px;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding-left: 20px;
+    padding-right: 45px;
+    border-radius: 30px;
+    flex: 1;
+}
+
+.cameraImage{
+    width: 28px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+.chatHeader{
+    margin-top: 20px;
+    padding: 0 20px;
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+}
+
+.iconArrow{
+    height: 28px;
+    width: 28px;
+    z-index: 1000;
+    position: absolute;
+    top: -30px;
+}
+
+.infoIcon{
+    height: 24px;
+    width: 24px;
+}
+
+.avatarIcon{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.textTitle{
+    font-family: 'TT Commons';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: #383C41;
+}
+
+.textCaption{
+    font-family: 'TT Commons';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: #8B8B8B;
+}
+
+.textContainer{
+    margin-right: 10px;
+}
+
+.textChatMessage{
+    font-family: 'TT Commons';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8B8B8B;
+    margin-top: 16,
+}
+
+.chatItemContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+.leftOrder{
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-style: solid;
+    border-top-width: 8px;
+    border-right-width: 4px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-color: transparent;
+    border-right-color: #EAEAEA;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+
+.rightOrder{
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-style: solid;
+    border-top-width: 8px;
+    border-right-width: 7px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-color: transparent;
+    border-right-color: #383C41;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    right: 4;
+    position: relative;
+}
+
+.deliveredText {
+    font-family: 'TT Commons';
+    text-align: right;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+
+.imageContainer{
+    width: 150px;
+    margin-top: 4px;
+    background-color: #EAEAEA;
+}
+
+.image{
+    width: 150px;
+    height: 200px;
+}
+
+.sendBtn{
+    position: absolute;
+    right: 12px;
+    top: -8px;
+}

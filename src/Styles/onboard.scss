@@ -1,0 +1,276 @@
+.container {
+  background: white;
+  font-size: 22pt;
+  color: green;
+}
+
+.label { /* Headline/Secondary */
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #8B8B8B;
+  text-align: left;
+  width: 80%;
+}
+
+
+.forgotpassword { /* Headline/Secondary */
+  margin: 10px auto;
+  font-size: 10px;
+  line-height: 17px;
+  letter-spacing: 0.01rem;
+  color: #333;
+  text-align: right;
+  width: 80%;
+}
+
+.paragraph {
+  width: 80%;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  padding-top: 0;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.paragraph2 {
+  width: 80%;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  padding-top: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.h1 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 20px auto;
+  color: #151515;
+  margin-bottom: 0px;
+}
+
+.loginh1 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 30px auto;
+  color: #151515;
+  margin-bottom: 40px;
+}
+
+.input {
+  margin: 10px auto;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.0128571rem;
+  color: #000000;
+  background: #fff;
+  padding: 15px;
+  width: 80%;
+}
+
+.buttoncontainer {
+  color: white;
+  height: 15%;
+  padding: 20px;
+  margin: 0;
+  margin-top: 50px;
+  background: #fff;
+}
+
+.forgotbuttoncontainer {
+  color: white;
+  bottom: 0;
+  height: 25%;
+  padding: 15px;
+  margin: 0;
+  background: #fff;
+}
+
+.logincontainer {
+  padding-top: 100px;
+  width: 100%;
+  margin: 10px auto;
+  background: #f1f1f1;
+  height: 100%;
+  max-height: 680px;
+  text-align: left;
+}
+
+.almostcontainer {
+  padding-top: 100px;
+  width: 100%;
+  margin: 10px auto;
+  background: #f1f1f1;
+  height: 80%;
+  max-height: 680px;
+  text-align: left;
+}
+
+.button {
+  margin-top: 0;
+  background: #383C41;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+  padding: 15px;
+  width: 80%;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+
+.buttonwhite {
+  margin-top: 0;
+  background: #fff;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+  color: #000;
+  margin: auto;
+  padding: 15px;
+  width: 80%;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+
+.topgender {
+  font-size: 12px;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #8B8B8B;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.genderlabel {
+  margin: 40px auto;
+  font-size: 12px;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #8B8B8B;
+  text-align: left;
+  width: 80%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 00px;
+}
+
+.gendercontainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #FFFFFF;
+  text-align: center;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+  flex-basis: 24%;
+  flex-flow: column;
+  width: 25%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 12px;
+  padding: 10px;
+  min-width: 95px;
+}
+
+.cardActive {
+  background: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+  flex-basis: 24%;
+  flex-flow: column;
+  width: 25%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 12px;
+  padding: 10px;
+  min-width: 100px;
+}
+
+.icon {
+  text-align: center;
+  justify-content: center;
+  margin: 0px auto;
+  padding-top: 15px;
+}
+
+.gendertext {
+  font-size: 12px;
+  line-height: 21px;
+  text-align: right;
+  letter-spacing: 0.0128571rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.gendertextactive {
+  color: #fff;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: right;
+  letter-spacing: 0.0128571rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.forgotcontainer {
+  padding-top: 100px;
+  width: 100%;
+  margin: 10px auto;
+  background: #f1f1f1;
+  height: 90%;
+  max-height: 680px;
+  text-align: left;
+}
+
+.forgotform {
+  padding-top: 20px;
+}

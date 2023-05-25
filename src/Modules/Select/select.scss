@@ -1,0 +1,41 @@
+.selectContainer{
+}
+
+.selectItem{
+    height: 50px;
+    padding: 16px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.label {
+    font-family: 'TT Commons';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #8B8B8B;
+    width: 80;
+}
+
+.valueText{
+    font-family: 'TT Commons';
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.dialogSelectContent{
+    padding: 0;
+    margin: 0;
+    background-color: #e4e4e4;
+}

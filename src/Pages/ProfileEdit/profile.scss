@@ -1,0 +1,127 @@
+.container {
+    flex: 1;
+    background-color: #EAEAEA;
+}
+
+.profileSec{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F8F8F8;
+    border-bottom-color:#ddd;
+    border-bottom-width: 2px;
+}
+
+.profileHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profileTitle{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #151515;
+    margin-bottom: 20px;
+}
+
+.profileImageContainer{
+    height: 86px;
+    width: 86px;
+    background-color: #EAEAEA;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileCamera{
+    height: 24px;
+    width: 26px;
+}
+
+.profileAvatar{
+    height: 100%;
+    width: 100%;
+    border-radius: 45px;
+}
+
+.photoText {
+    font-family: 'TT Commons';
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8B8B8B;
+    margin-top: 4px;
+}
+
+.profileItem{
+    margin-bottom: 20px;
+}
+
+.flex{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #ffffff;
+}
+
+.profileItemTitle{
+    font-family: 'TT Commons';
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.profileItemContent{
+    font-family: 'TT Commons';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #8B8B8B;
+    // margin-top: -4px;
+}
+
+.progressContainer{
+    background-color: #F4F4F4;
+    height: 15px;
+}
+
+.progressBar{
+    margin: 0;
+    height: 15px;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    min-width: 1%;
+}
+
+.progressBarText{
+    position: absolute;
+    font-family: 'TT Commons';
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.blackText{
+    color: #000000;
+}

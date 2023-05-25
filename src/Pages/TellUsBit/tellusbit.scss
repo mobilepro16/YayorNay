@@ -1,0 +1,41 @@
+.container {
+    flex: 1;
+    background-color: #EAEAEA;
+}
+
+.genderContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.genderItem{
+    margin-right: 18px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.genderItemActive{
+    background-color: #383C41;
+}
+
+.imageGender{
+    // width: 18px;
+    height: 27px;
+}
+
+.genderText{
+    margin-top: 10px;
+    font-family: 'TT Commons';
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.genderTextActive{
+    color: #fff;
+}
